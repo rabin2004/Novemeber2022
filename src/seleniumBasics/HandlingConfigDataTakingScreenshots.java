@@ -125,6 +125,6 @@ public class HandlingConfigDataTakingScreenshots {
 
 	}
 	
-	// Assignment: 1. Try mouse keyboard operation - drag & drop 2. Use config file and handle config data separately 3. Integrate taking screenshot if test case fails 4. Pick any app and try using knowledge learnt so for for few features
+	// Assignment: 1. Try mouse keyboard operation - drag & drop 2. Use config file and handle config data separately 3. Integrate taking screenshot if test case fails 4. Pick any app and try using knowledge learned so for few features
 
 }

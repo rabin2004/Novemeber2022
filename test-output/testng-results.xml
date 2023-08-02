@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="17" passed="17" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-25T22:37:33 EDT" name="Default suite" finished-at="2023-07-25T22:40:18 EDT" duration-ms="164387">
+    <groups>
+    </groups>
+    <test started-at="2023-07-25T22:37:33 EDT" name="Default test" finished-at="2023-07-25T22:40:18 EDT" duration-ms="164387">
+      <class name="testNGbasics.DataDrivenTesting">
+        <test-method is-config="true" signature="initialization()[pri:0, instance:testNGbasics.DataDrivenTesting@7bba5817]" started-at="2023-07-25T22:37:33 EDT" name="initialization" finished-at="2023-07-25T22:37:51 EDT" duration-ms="17550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="searchFunctionalityUIelementValidation()[pri:0, instance:testNGbasics.DataDrivenTesting@7bba5817]" started-at="2023-07-25T22:37:51 EDT" name="searchFunctionalityUIelementValidation" finished-at="2023-07-25T22:38:09 EDT" duration-ms="17808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFunctionalityUIelementValidation -->
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:testNGbasics.DataDrivenTesting@7bba5817]" started-at="2023-07-25T22:38:09 EDT" name="backToHomePage" finished-at="2023-07-25T22:38:11 EDT" duration-ms="1681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backToHomePage -->
+        <test-method signature="positiveSearchFunctionalityTestByHittingEnterKey(java.lang.String)[pri:0, instance:testNGbasics.DataDrivenTesting@7bba5817]" started-at="2023-07-25T22:38:11 EDT" name="positiveSearchFunctionalityTestByHittingEnterKey" data-provider="positiveSearchFunctionalityData" finished-at="2023-07-25T22:38:23 EDT" depends-on-methods="testNGbasics.DataDrivenTesting.searchFunctionalityUIelementValidation" duration-ms="12108" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[apple]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveSearchFunctionalityTestByHittingEnterKey -->
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:testNGbasics.DataDrivenTesting@7bba5817]" started-at="2023-07-25T22:38:23 EDT" name="backToHomePage" finished-at="2023-07-25T22:38:24 EDT" duration-ms="1161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backToHomePage -->
+        <test-method signature="positiveSearchFunctionalityTestByHittingEnterKey(java.lang.String)[pri:0, instance:testNGbasics.DataDrivenTesting@7bba5817]" started-at="2023-07-25T22:38:24 EDT" name="positiveSearchFunctionalityTestByHittingEnterKey" data-provider="positiveSearchFunctionalityData" finished-at="2023-07-25T22:38:30 EDT" depends-on-methods="testNGbasics.DataDrivenTesting.searchFunctionalityUIelementValidation" duration-ms="6119" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[samsung]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveSearchFunctionalityTestByHittingEnterKey -->
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:testNGbasics.DataDrivenTesting@7bba5817]" started-at="2023-07-25T22:38:30 EDT" name="backToHomePage" finished-at="2023-07-25T22:38:32 EDT" duration-ms="1697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backToHomePage -->
+        <test-method signature="positiveSearchFunctionalityTestByHittingEnterKey(java.lang.String)[pri:0, instance:testNGbasics.DataDrivenTesting@7bba5817]" started-at="2023-07-25T22:38:32 EDT" name="positiveSearchFunctionalityTestByHittingEnterKey" data-provider="positiveSearchFunctionalityData" finished-at="2023-07-25T22:38:38 EDT" depends-on-methods="testNGbasics.DataDrivenTesting.searchFunctionalityUIelementValidation" duration-ms="6330" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[microsoft]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveSearchFunctionalityTestByHittingEnterKey -->
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:testNGbasics.DataDrivenTesting@7bba5817]" started-at="2023-07-25T22:38:38 EDT" name="backToHomePage" finished-at="2023-07-25T22:38:39 EDT" duration-ms="1298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backToHomePage -->
+        <test-method signature="positiveSearchFunctionalityTestByHittingEnterKey(java.lang.String)[pri:0, instance:testNGbasics.DataDrivenTesting@7bba5817]" started-at="2023-07-25T22:38:39 EDT" name="positiveSearchFunctionalityTestByHittingEnterKey" data-provider="positiveSearchFunctionalityData" finished-at="2023-07-25T22:38:45 EDT" depends-on-methods="testNGbasics.DataDrivenTesting.searchFunctionalityUIelementValidation" duration-ms="5444" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pixel]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveSearchFunctionalityTestByHittingEnterKey -->
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:testNGbasics.DataDrivenTesting@7bba5817]" started-at="2023-07-25T22:38:45 EDT" name="backToHomePage" finished-at="2023-07-25T22:38:47 EDT" duration-ms="1858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backToHomePage -->
+        <test-method signature="positiveSearchFunctionalityTestByHittingEnterKey(java.lang.String)[pri:0, instance:testNGbasics.DataDrivenTesting@7bba5817]" started-at="2023-07-25T22:38:47 EDT" name="positiveSearchFunctionalityTestByHittingEnterKey" data-provider="positiveSearchFunctionalityData" finished-at="2023-07-25T22:38:53 EDT" depends-on-methods="testNGbasics.DataDrivenTesting.searchFunctionalityUIelementValidation" duration-ms="6642" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nokia]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveSearchFunctionalityTestByHittingEnterKey -->
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:testNGbasics.DataDrivenTesting@7bba5817]" started-at="2023-07-25T22:38:53 EDT" name="backToHomePage" finished-at="2023-07-25T22:38:54 EDT" duration-ms="1010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backToHomePage -->
+        <test-method signature="positiveSearchFunctionalityTestByClickingSearchBtn(java.lang.String)[pri:1, instance:testNGbasics.DataDrivenTesting@7bba5817]" started-at="2023-07-25T22:38:54 EDT" name="positiveSearchFunctionalityTestByClickingSearchBtn" data-provider="positiveSearchFunctionalityData" finished-at="2023-07-25T22:39:02 EDT" depends-on-methods="testNGbasics.DataDrivenTesting.searchFunctionalityUIelementValidation" duration-ms="7833" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[apple]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveSearchFunctionalityTestByClickingSearchBtn -->
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:testNGbasics.DataDrivenTesting@7bba5817]" started-at="2023-07-25T22:39:02 EDT" name="backToHomePage" finished-at="2023-07-25T22:39:04 EDT" duration-ms="1704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backToHomePage -->
+        <test-method signature="positiveSearchFunctionalityTestByClickingSearchBtn(java.lang.String)[pri:1, instance:testNGbasics.DataDrivenTesting@7bba5817]" started-at="2023-07-25T22:39:04 EDT" name="positiveSearchFunctionalityTestByClickingSearchBtn" data-provider="positiveSearchFunctionalityData" finished-at="2023-07-25T22:39:11 EDT" depends-on-methods="testNGbasics.DataDrivenTesting.searchFunctionalityUIelementValidation" duration-ms="6620" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[samsung]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveSearchFunctionalityTestByClickingSearchBtn -->
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:testNGbasics.DataDrivenTesting@7bba5817]" started-at="2023-07-25T22:39:11 EDT" name="backToHomePage" finished-at="2023-07-25T22:39:12 EDT" duration-ms="1374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backToHomePage -->
+        <test-method signature="positiveSearchFunctionalityTestByClickingSearchBtn(java.lang.String)[pri:1, instance:testNGbasics.DataDrivenTesting@7bba5817]" started-at="2023-07-25T22:39:12 EDT" name="positiveSearchFunctionalityTestByClickingSearchBtn" data-provider="positiveSearchFunctionalityData" finished-at="2023-07-25T22:39:20 EDT" depends-on-methods="testNGbasics.DataDrivenTesting.searchFunctionalityUIelementValidation" duration-ms="8462" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[microsoft]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveSearchFunctionalityTestByClickingSearchBtn -->
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:testNGbasics.DataDrivenTesting@7bba5817]" started-at="2023-07-25T22:39:20 EDT" name="backToHomePage" finished-at="2023-07-25T22:39:22 EDT" duration-ms="1307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backToHomePage -->
+        <test-method signature="positiveSearchFunctionalityTestByClickingSearchBtn(java.lang.String)[pri:1, instance:testNGbasics.DataDrivenTesting@7bba5817]" started-at="2023-07-25T22:39:22 EDT" name="positiveSearchFunctionalityTestByClickingSearchBtn" data-provider="positiveSearchFunctionalityData" finished-at="2023-07-25T22:39:28 EDT" depends-on-methods="testNGbasics.DataDrivenTesting.searchFunctionalityUIelementValidation" duration-ms="5996" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pixel]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveSearchFunctionalityTestByClickingSearchBtn -->
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:testNGbasics.DataDrivenTesting@7bba5817]" started-at="2023-07-25T22:39:28 EDT" name="backToHomePage" finished-at="2023-07-25T22:39:29 EDT" duration-ms="971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backToHomePage -->
+        <test-method signature="positiveSearchFunctionalityTestByClickingSearchBtn(java.lang.String)[pri:1, instance:testNGbasics.DataDrivenTesting@7bba5817]" started-at="2023-07-25T22:39:29 EDT" name="positiveSearchFunctionalityTestByClickingSearchBtn" data-provider="positiveSearchFunctionalityData" finished-at="2023-07-25T22:39:36 EDT" depends-on-methods="testNGbasics.DataDrivenTesting.searchFunctionalityUIelementValidation" duration-ms="7262" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nokia]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveSearchFunctionalityTestByClickingSearchBtn -->
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:testNGbasics.DataDrivenTesting@7bba5817]" started-at="2023-07-25T22:39:36 EDT" name="backToHomePage" finished-at="2023-07-25T22:39:37 EDT" duration-ms="1318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backToHomePage -->
+        <test-method signature="negativeSearchFunctionalityTestByHittingEnterKey(java.lang.String)[pri:2, instance:testNGbasics.DataDrivenTesting@7bba5817]" started-at="2023-07-25T22:39:37 EDT" name="negativeSearchFunctionalityTestByHittingEnterKey" data-provider="negativeSearchFunctionalityData" finished-at="2023-07-25T22:39:42 EDT" depends-on-methods="testNGbasics.DataDrivenTesting.searchFunctionalityUIelementValidation" duration-ms="5084" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[329805723097590ujskdjflksdfjvnlksdvnlksdnvlksdvn]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeSearchFunctionalityTestByHittingEnterKey -->
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:testNGbasics.DataDrivenTesting@7bba5817]" started-at="2023-07-25T22:39:42 EDT" name="backToHomePage" finished-at="2023-07-25T22:39:44 EDT" duration-ms="1265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backToHomePage -->
+        <test-method signature="negativeSearchFunctionalityTestByHittingEnterKey(java.lang.String)[pri:2, instance:testNGbasics.DataDrivenTesting@7bba5817]" started-at="2023-07-25T22:39:44 EDT" name="negativeSearchFunctionalityTestByHittingEnterKey" data-provider="negativeSearchFunctionalityData" finished-at="2023-07-25T22:39:49 EDT" depends-on-methods="testNGbasics.DataDrivenTesting.searchFunctionalityUIelementValidation" duration-ms="5517" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[329805723097591ujskdjflksdfjvnlksdvnlksdnvlksdvn]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeSearchFunctionalityTestByHittingEnterKey -->
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:testNGbasics.DataDrivenTesting@7bba5817]" started-at="2023-07-25T22:39:49 EDT" name="backToHomePage" finished-at="2023-07-25T22:39:50 EDT" duration-ms="1113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backToHomePage -->
+        <test-method signature="negativeSearchFunctionalityTestByHittingEnterKey(java.lang.String)[pri:2, instance:testNGbasics.DataDrivenTesting@7bba5817]" started-at="2023-07-25T22:39:50 EDT" name="negativeSearchFunctionalityTestByHittingEnterKey" data-provider="negativeSearchFunctionalityData" finished-at="2023-07-25T22:39:56 EDT" depends-on-methods="testNGbasics.DataDrivenTesting.searchFunctionalityUIelementValidation" duration-ms="5473" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[329805723097592ujskdjflksdfjvnlksdvnlksdnvlksdvn]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeSearchFunctionalityTestByHittingEnterKey -->
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:testNGbasics.DataDrivenTesting@7bba5817]" started-at="2023-07-25T22:39:56 EDT" name="backToHomePage" finished-at="2023-07-25T22:39:57 EDT" duration-ms="1784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backToHomePage -->
+        <test-method signature="negativeSearchFunctionalityTestByClickingSearchBtn(java.lang.String)[pri:3, instance:testNGbasics.DataDrivenTesting@7bba5817]" started-at="2023-07-25T22:39:57 EDT" name="negativeSearchFunctionalityTestByClickingSearchBtn" data-provider="negativeSearchFunctionalityData" finished-at="2023-07-25T22:40:02 EDT" depends-on-methods="testNGbasics.DataDrivenTesting.searchFunctionalityUIelementValidation" duration-ms="4760" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[329805723097590ujskdjflksdfjvnlksdvnlksdnvlksdvn]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeSearchFunctionalityTestByClickingSearchBtn -->
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:testNGbasics.DataDrivenTesting@7bba5817]" started-at="2023-07-25T22:40:02 EDT" name="backToHomePage" finished-at="2023-07-25T22:40:03 EDT" duration-ms="1094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backToHomePage -->
+        <test-method signature="negativeSearchFunctionalityTestByClickingSearchBtn(java.lang.String)[pri:3, instance:testNGbasics.DataDrivenTesting@7bba5817]" started-at="2023-07-25T22:40:03 EDT" name="negativeSearchFunctionalityTestByClickingSearchBtn" data-provider="negativeSearchFunctionalityData" finished-at="2023-07-25T22:40:08 EDT" depends-on-methods="testNGbasics.DataDrivenTesting.searchFunctionalityUIelementValidation" duration-ms="4911" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[329805723097591ujskdjflksdfjvnlksdvnlksdnvlksdvn]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeSearchFunctionalityTestByClickingSearchBtn -->
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:testNGbasics.DataDrivenTesting@7bba5817]" started-at="2023-07-25T22:40:08 EDT" name="backToHomePage" finished-at="2023-07-25T22:40:09 EDT" duration-ms="1192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backToHomePage -->
+        <test-method signature="negativeSearchFunctionalityTestByClickingSearchBtn(java.lang.String)[pri:3, instance:testNGbasics.DataDrivenTesting@7bba5817]" started-at="2023-07-25T22:40:09 EDT" name="negativeSearchFunctionalityTestByClickingSearchBtn" data-provider="negativeSearchFunctionalityData" finished-at="2023-07-25T22:40:15 EDT" depends-on-methods="testNGbasics.DataDrivenTesting.searchFunctionalityUIelementValidation" duration-ms="5760" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[329805723097592ujskdjflksdfjvnlksdvnlksdnvlksdvn]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeSearchFunctionalityTestByClickingSearchBtn -->
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:testNGbasics.DataDrivenTesting@7bba5817]" started-at="2023-07-25T22:40:15 EDT" name="backToHomePage" finished-at="2023-07-25T22:40:17 EDT" duration-ms="1370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backToHomePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testNGbasics.DataDrivenTesting@7bba5817]" started-at="2023-07-25T22:40:17 EDT" name="tearDown" finished-at="2023-07-25T22:40:18 EDT" duration-ms="1161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testNGbasics.DataDrivenTesting -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
